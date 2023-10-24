@@ -1,12 +1,10 @@
 <resources>
     <string name="app_name">Rabatize V2</string>
-    <string name="add_player">value Player</string>
-    <string name="edit_player_name">vvalue Player Name</string>
-    <string name="language">value en Français</string>
-
-    <string name="player_name">value player</string>
-    <string name="cancel_edit_name">value Cancel</string>
-    <string name="validate_edit_name">OK</string>
+    <string name="player_name">Player</string>
+    <string name="add_player">Add Player</string>
+    <string name="edit_player_name">Edit Player Name</string>
+    <string name="language">Basculer en Français</string>
+    <string name="cancel_edit_name">Cancel</string>
     <string-array name="placeholder_names">
         <item>Frankenwolf</item>
         <item>MumKing</item>
@@ -60,12 +58,14 @@
         <item>Gorgon</item>
         <item>Goblin</item>
         <item>Kraken</item>
-
         <!-- Add more names if you'd like -->
     </string-array>
     <string name="app_title">Rabatize</string>
-    <string name="remove">Remove</string>
+    <string name="remove">X</string>
     <string name="player_avatar">Player avatar</string>
+    <string name="validate_edit_name">OK</string>
     <string name="play">Play</string>
     <string name="sub_title_app">Drinking game to share !</string>
+
+
 </resources>
