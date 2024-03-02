@@ -16,7 +16,7 @@
             android:name=".MainActivity"
             android:exported="true">
         </activity>
-        <activity android:name=".ChooseGameActivity" />
+        <activity android:name=".GameModeSelectionActivity"/>
         <activity
             android:name=".SplashScreen"
             android:exported="true">

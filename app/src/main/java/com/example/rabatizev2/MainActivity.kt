@@ -17,6 +17,8 @@ import com.example.rabatizev2.models.Player
 import com.example.rabatizev2.models.Player.Companion.avatars
 import java.util.Locale
 import kotlin.random.Random
+import com.example.rabatizev2.GameModeSelectionActivity
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -61,9 +63,10 @@ class MainActivity : AppCompatActivity() {
 
         val playButton: Button = findViewById(R.id.playButton)
         playButton.setOnClickListener {
-            val intent = Intent(this, ChooseGameActivity::class.java)
+            val intent = Intent(this, GameModeSelectionActivity::class.java)
             intent.putExtra("players", ArrayList(players))
             startActivity(intent)
+
         }
 
     }
