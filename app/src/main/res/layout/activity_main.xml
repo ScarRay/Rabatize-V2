@@ -60,29 +60,31 @@
         android:layout_centerHorizontal="true"
         android:tag="@string/add_player"
         android:text="@string/add_player"
-        app:layout_constraintTop_toBottomOf="@id/playersList"
+        app:layout_constraintBottom_toTopOf="@id/playButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <!-- ListView to show players -->
     <ListView
         android:id="@+id/playersList"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintHeight_percent="0.6"
-        app:layout_constraintTop_toBottomOf="@id/subTitleText"
+        app:layout_constraintTop_toBottomOf="@+id/subTitleText"
+        app:layout_constraintBottom_toTopOf="@+id/expandButton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
     <Button
         android:id="@+id/playButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/play"
         android:layout_below="@id/expandButton"
-        app:layout_constraintTop_toBottomOf="@id/expandButton"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
